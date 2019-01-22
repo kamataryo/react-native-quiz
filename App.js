@@ -1,14 +1,14 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, Button, Alert } from 'react-native'
+import Quiz from 'src/quiz'
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={ styles.container }>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    )
-  }
+export const App = () => {
+  return (
+    <View style={ styles.container }>
+      <Text>{'hello'}</Text>
+      <Quiz />
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
